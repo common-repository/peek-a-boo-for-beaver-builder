@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Beaver Builder Peek-a-Boo!\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-09 13:17+0000\n"
+"PO-Revision-Date: 2017-05-09 13:18+0000\n"
+"Last-Translator: davidv <connect@mapsteps.com>\n"
+"Language-Team: German\n"
+"Language: de-DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "Peek-a-boo for Beaver Builder"
+msgstr "Peek-a-boo für Beaver Builder"
+
+#. Description of the plugin
+msgid ""
+"This Plugin allows you to preview your changes while the Page Builder is "
+"active. No need to save & publish changes to see the results!"
+msgstr ""
+"This Plugin allows you to preview your changes while the Page Builder is "
+"active. No need to save & publish changes to see the results!"
+
+#. URI of the plugin
+msgid "https://mapsteps.com/en/downloads/"
+msgstr "https://mapsteps.com/en/downloads/"
+
+#. Author of the plugin
+msgid "MapSteps"
+msgstr "MapSteps"
+
+#. Author URI of the plugin
+msgid "https://mapsteps.com"
+msgstr "https://mapsteps.com"
+
+#: bb-peek-a-boo.php:46
+msgid "Preview"
+msgstr "Vorschau"

@@ -1,0 +1,111 @@
+/* Preview Mode Icon */
+
+#peek-a-boo-wrapper {
+	position: 					fixed;
+	top: 						80px;
+	left: 						0px;
+	z-index: 					999999;
+}
+
+.pab-displaynone {
+	display: 					none;
+}
+
+#peek-a-boo-wrapper span {
+	position: 					relative;
+	display: 					block;
+}
+
+#peek-a-boo-wrapper span .fa {
+	background: 				#f2f2f2;
+	width: 						50px;
+	height: 					50px;
+	line-height: 				50px;
+	text-align: 				center;
+	cursor: 					pointer;
+	font-size: 					16px !important;
+	color: 						#555 !important;
+	-moz-transition:			all 0.25s;
+	-o-transition:				all 0.25s;
+	-webkit-transition:			all 0.25s;
+	transition:					all 0.25s;
+}
+
+/* Tooltip */
+#peek-a-boo-wrapper .pab-tooltip {
+	position:					absolute;
+	top:						50%;
+	-webkit-transform:			translateY(-50%);
+	-ms-transform:				translateY(-50%);
+	transform:					translateY(-50%);
+	white-space: 				nowrap;
+
+	width: 						auto;
+	display: 					none;
+	opacity: 					0;
+	left: 						65px;
+	padding: 					5px 14px;
+	background: 				#555;
+	color: 						#fff;
+	border-radius: 				5px;
+	font-size: 					12px !important;
+}
+
+#peek-a-boo-wrapper .pab-tooltip:before {
+	position:					absolute;
+	top:						50%;
+	-webkit-transform:			translateY(-50%);
+	-ms-transform:				translateY(-50%);
+	transform:					translateY(-50%);
+
+	left: 						-5px;
+	font-family: 				FontAwesome;
+	content: 					"\f0d9";
+	font-size: 					17px !important;
+	color: 						#555;
+	/*display: 					none;*/
+}
+
+/* Power Pack */
+.pp-preview-button {
+	display:					none !important;
+}
+
+/* Animate HTML */
+html.fl-builder-edit, html.peek-a-boo {
+	-moz-transition:			all 0.5s;
+	-o-transition:				all 0.5s;
+	-webkit-transition:			all 0.5s;
+	transition:					all 0.5s;
+}
+
+html.peek-a-boo {
+	margin-top: 				0 !important;
+}
+
+html.peek-a-boo #peek-a-boo-wrapper .pab-tooltip {
+	display: 					none !important;
+}
+
+
+/* Hide BB */
+html.peek-a-boo .fl-col-highlight {
+	padding: 					0;
+}
+
+html.peek-a-boo .fl-col-highlight .fl-col-content {
+	border: 					none !important;
+}
+
+html.peek-a-boo .fl-row-overlay, html.peek-a-boo .fl-block-overlay {
+	display: 					none !important;
+}
+
+html.peek-a-boo .fl-block-overlay-active .fl-row-content {
+	z-index: 					111 !important;
+}
+
+/* BeaverTunnels */
+html.peek-a-boo .bt-template-overlay {
+	display: 					none !important;
+}
